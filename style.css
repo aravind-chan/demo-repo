@@ -1,0 +1,102 @@
+h1 {
+    color: red;
+    text-align: center;
+    text-shadow: 5px 5px 4px rgb(87, 69, 69);
+}
+
+.body {
+    color: orange;
+}
+
+#italic {
+    color: rgb(102, 102, 247);
+}
+
+nav {
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 30px;
+}
+
+
+.container {
+    border: 2px dotted grey;
+    margin: 50px 5px;
+    padding: 10px 20px;
+}
+
+.box {
+    display: inline-block;
+    background: khaki;
+    height: 200px;
+    width: 200px;
+    margin: 10px 0px;
+    margin: 10px;
+    
+}
+
+@keyframes fadeMe {
+    0%{
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#box1 {
+    animation-name: fadeMe;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.rajni {
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgb(93, 94, 95);
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid gray;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding: 100px;
+}
+
+form input, textarea,button {
+    display: block;
+    margin: 30px;
+}
+
+.nav-wrapper {
+    background-color: aquamarine;
+}
+
+.contact-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 5px 6px 5px rgb(93, 94, 95);
+}
+
+.row {
+    margin: 30px; 
+}
+
+.input-field {
+    margin: 20px;
+}
